@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
 }
-body{
+
+body {
     background-image: url(../imagenes/fondohojarocio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,20 +14,21 @@ body{
     background-attachment: fixed;
 }
 
-main{
+main {
     width: 100%;
     padding: 20px;
     margin: auto;
     margin-top: 100px;
 }
 
-.contenedor__todo{
-    width:100%;
+.contenedor__todo {
+    width: 100%;
     max-width: 800px;
     margin: auto;
     position: relative;
 }
-.caja__trasera{
+
+.caja__trasera {
     width: 100%;
     padding: 10px 10px;
     display: flex;
@@ -35,22 +37,23 @@ main{
     background-color: rgb(135, 235, 157);
 }
 
-.caja__trasera div{
+.caja__trasera div {
     margin: 100px 40px;
     color: white;
-    transition: all 500ms;    
+    transition: all 500ms;
 }
 
 .caja__trasera div p,
-.caja__trasera div button{
+.caja__trasera div button {
     margin-top: 30px;
 }
 
-.caja__trasera div h3{
+.caja__trasera div h3 {
     font-weight: 400;
-    font-size: 26px;    
+    font-size: 26px;
 }
-.caja__trasera button{
+
+.caja__trasera button {
     padding: 10px 40px;
     border: 2px solid white;
     background: transparent;
@@ -59,16 +62,18 @@ main{
     cursor: pointer;
     color: white;
     outline: none;
-    transition:  all 300ms;
+    transition: all 300ms;
 }
 
-.caja__trasera button:hover{
+.caja__trasera button:hover {
     background: #fff;
-    color: rgb(15, 131, 21);    
+    color: rgb(15, 131, 21);
 }
+
 
 /*Formulsrios*/
-.contenedor__login-register{
+
+.contenedor__login-register {
     display: flex;
     align-items: center;
     width: 100%;
@@ -78,32 +83,32 @@ main{
     left: 10px;
 }
 
-.contenedor__login-register form{
+.contenedor__login-register form {
     width: 100%;
     padding: 80px 20px;
     background: white;
     position: absolute;
     border-radius: 20px;
 }
-.contenedor__login-register form h2{
+
+.contenedor__login-register form h2 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: rgb(15,131,21);
-
+    color: rgb(15, 131, 21);
 }
 
-.contenedor__login-register form input{
+.contenedor__login-register form input {
     width: 100%;
     margin-top: 20px;
     padding: 10px;
     border: none;
     background: #f2f2f2;
     font-size: 16px;
-    outline: none;    
+    outline: none;
 }
 
-.contenedor__login-register form button{
+.contenedor__login-register form button {
     padding: 10px 40px;
     margin-top: 40px;
     border: none;
@@ -111,43 +116,42 @@ main{
     background: #27a56a;
     color: white;
     cursor: pointer;
-    outline:none;    
+    outline: none;
 }
 
-.formulario__login{
+.formulario__login {
     opacity: 1;
-    display: block;    
+    display: block;
 }
 
-.formulario__register{
+.formulario__register {
     display: none;
 }
 
+
 /*Aqui se va a trabajar en ek responsive design */
 
-@media screen and (max-width: 850px){
-    main{
+@media screen and (max-width: 850px) {
+    main {
         margin-top: 50px;
     }
-    .caja__trasera{
+    .caja__trasera {
         max-width: 350px;
         height: 300px;
         flex-direction: column;
-        margin: auto;        
+        margin: auto;
     }
-
-    .caja__trasera div{
+    .caja__trasera div {
         margin: 0px;
-        position: absolute;    
+        position: absolute;
     }
     /*Aqui vamos a trabajar en el responsive desing de los formularios */
-    .contenedor__login-register{
+    .contenedor__login-register {
         top: -10px;
         left: -5px;
         margin: auto;
     }
-    .contenedor__login-register form{
-        position: relative;        
+    .contenedor__login-register form {
+        position: relative;
     }
-
 }
