@@ -1,0 +1,9 @@
+root = true
+
+[*]
+Charset = utf-8
+Indent_Style = space
+Indent_Sixe = 2
+End_Of_Line = If
+Insert_Final_Newline = true
+Trim_Trailing_Whitespace = true 
