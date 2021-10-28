@@ -34,13 +34,17 @@ main {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
-    background-color: rgb(135, 235, 157);
+    background-color: rgba(135, 235, 157, 0.062);
 }
 
 .caja__trasera div {
     margin: 100px 40px;
     color: white;
     transition: all 500ms;
+}
+
+.caja__trasera-login {
+    opacity: 0;
 }
 
 .caja__trasera div p,
